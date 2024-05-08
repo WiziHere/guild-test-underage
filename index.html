@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Survey for Guild Test</h1>
+            <section>
+                <form
+            action="https://formspree.io/f/xjvnljnw"
+            method="POST"
+            >
+            <div class="guild-form">             
+            <label for="name">In-Game Name* : <input id="name" type="text" name="entername" placeholder="Enter Your IGN !" required></label>
+            <br>
+            <label for="uid">UID* : <input id="uid" type="text" name="enterid" placeholder="Enter Your UID !" required></label>
+            <br>
+            <label for="level">Game Level* : <input id="level" type="number" name="level" placeholder="Level?" min="50" max="100" required></p></strong>          
+            <br>
+            <fieldset>
+                <strong><legend>Do you have a Name-Change Card ? *</legend><br>
+                <label for="yes"><input id="yes" type="radio" name="name-card" value="yes" checked />Yes!</label>
+                <br>
+                <label for="no"><input id="no" type="radio" name="name-card" value="no" />No!</label>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>What is your K/D in your preffered game mode? *</legend>
+                <label for="number"><input id="number" type="number" placeholder="K/D !" min="3" max="10" required></label>               
+            </fieldset><br>
+            <label for="exp">Game Experience : <input id="exp" type="number" name="enteryourgameexperience" min="2" max="7" placeholder="Exp !" </label>
+            <br><br>
+            <fieldset>
+                <legend>Best Clutch you can do ? *</legend>
+                <label for="1v2"><input id="1v2" type="radio" name="1v2-1v3-1v4" value="1v2" checked />1v2</label>
+                <br>
+                <label for="1v3"><input id="1v3" type="radio" name="1v2-1v3-1v4" value="1v3" />1v3</label>
+                <br>
+                <label for="1v4"><input id="1v4" type="radio" name="1v2-1v3-1v4" value="1v4" />1v4</label></strong>
+                <br>
+                <br>
+                <label><strong>What's your Rank ? *</strong>
+                    <br><br>
+                    <label><input type="radio" id="br-ranked" name="ranked-mode" value="br-ranked" checked /> BR-RANKED</label>
+                    <label><input type="radio" id="cs-ranked" name="ranked-mode" value="cs-ranked" /> CS-RANKED</label>
+                    <br>
+                    <input type="text" name="rank" id="rank" placeholder="Enter Your Rank !" required />
+                </label>
+                <br>
+                <br>
+            </fieldset>
+            <strong><p>Your Contact* : <input type="text" placeholder="Anything !" name="contact" required></p></strong>
+            <br><br>
+            <input type="submit" id="submit" value="Submit !">
+            </div>
+            <br><br>
+            <footer>
+                For queries: Contact at <a href="https://discord.com/invite/wgaucTMQ" target="_blank">ua.wizishot</a> / dm at <strong>9051123864.</strong>
+
+            </footer>
+            </section>
+        </main>
+    </body>
+</html>
